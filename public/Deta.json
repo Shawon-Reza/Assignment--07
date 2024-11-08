@@ -1,0 +1,93 @@
+[
+    {
+      "player_name": "Michael Clarke",
+      "position": "Batsman",
+      "country": "Australia",
+      "rating": 782,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Leg break",
+      "price": 1000000
+    },
+    {
+      "player_name": "James Faulkner",
+      "position": "All-rounder",
+      "country": "Australia",
+      "rating": 550,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm medium-fast",
+      "price": 850000
+    },
+    {
+      "player_name": "Aaron Finch",
+      "position": "Batsman",
+      "country": "Australia",
+      "rating": 751,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "N/A",
+      "price": 1200000
+    },
+    {
+      "player_name": "Mitchell Johnson",
+      "position": "Bowler",
+      "country": "Australia",
+      "rating": 800,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm fast",
+      "price": 1400000
+    },
+    {
+      "player_name": "Mitchell Marsh",
+      "position": "All-rounder",
+      "country": "Australia",
+      "rating": 730,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm medium-fast",
+      "price": 1100000
+    },
+    {
+      "player_name": "Peter Nevill",
+      "position": "Wicketkeeper",
+      "country": "Australia",
+      "rating": 720,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "N/A",
+      "price": 950000
+    },
+    {
+      "player_name": "Keshav Maharaj",
+      "position": "Bowler",
+      "country": "South Africa",
+      "rating": 674,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm orthodox",
+      "price": 780000
+    },
+    {
+      "player_name": "Rashid Khan",
+      "position": "Bowler",
+      "country": "Afghanistan",
+      "rating": 799,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Leg break",
+      "price": 1500000
+    },
+    {
+      "player_name": "Kuldeep Yadav",
+      "position": "Bowler",
+      "country": "India",
+      "rating": 665,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm chinaman",
+      "price": 1300000
+    },
+    {
+      "player_name": "Ryan Harris",
+      "position": "Bowler",
+      "country": "Australia",
+      "rating": 745,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm fast-medium",
+      "price": 1050000
+    }
+  ]
+  
