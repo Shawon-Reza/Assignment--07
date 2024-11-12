@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import SinglePlayer from "../singlePlayer/singlePlayer";
 
-const AllPlayers = () => {
+const AllPlayers = ({onSelectPlayer}) => {
     // Activ Button State
+
     const [activetbn, setActivetbn] = useState({
         cart: true,
         status: "cart"
@@ -23,14 +25,13 @@ const AllPlayers = () => {
     }
     // State For All Players data 
     const [allPlayers, setAllPlayers] = useState([])  //All players Details
-    console.log(allPlayers)
     //UseEffect for Fetch Facked Data For All Players.
 
     useEffect(() => {
         fetch('../../../public/Deta.json')
             .then(data => data.json())
             .then(res => setAllPlayers(res))
-            .catch(error=>{"Error occur while Fetching ALl players Details",error})
+            .catch(error => { "Error occur while Fetching ALl players Details", error })
     }, [])
 
 
@@ -41,7 +42,7 @@ const AllPlayers = () => {
     return (
         <div className="container mx-auto mt-10">
             {/* Active Button Container Start*/}
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mb-3">
                 <h3 className="text-3xl font-bold">Available Players</h3>
                 <div className=" space-x-3">
                     {/* Acative Button */}
@@ -50,14 +51,23 @@ const AllPlayers = () => {
                 </div> {/* Active Button Container End */}
             </div>
 
-            {/* All Players Container Start */}
-
-
-
-
-            {/* All Players Container End */}
             <div>
+                {/* All Players Container Start : Dynamically Sshow */}
 
+                <div className="grid grid-cols-2 gap-3">
+                    {
+                        allPlayers.map((player, idx) => <SinglePlayer
+                            key={idx}
+                            player={player}
+                            onSelectPlayer={onSelectPlayer}
+                           
+                        ></SinglePlayer>)
+                    }
+                </div>
+
+
+
+                {/* All Players Container End */}
             </div>
         </div>
     );

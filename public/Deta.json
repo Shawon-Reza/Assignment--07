@@ -7,7 +7,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Leg break",
       "price": 1000000,
-      "player_img": "https://example.com/images/michael_clarke.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/462746694_1771488423587946_8259378298141999158_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH3Nc8YlbibqN0ozuC1JCBuVo-juHPXWmdWj6O4c9daZwfORfzT_k9T3x-uCHOIw7eXTJ244czX1tOrxd1LJOCp&_nc_ohc=K0hrccurQ6IQ7kNvgH41aub&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=A0P6cB06fJhuoK_TtQFnXu7&oh=00_AYB9XFlaHIv7Ib0q_lMzycI3rRR1lryDPDuIpp6tk5SsrQ&oe=673921C4"
   },
   {
       "player_name": "James Faulkner",
@@ -17,7 +17,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm medium-fast",
       "price": 850000,
-      "player_img": "https://example.com/images/james_faulkner.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/405287338_1563673864369404_2618945861622083327_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG5zp9iX5hKrkrg7KQvUrZ851WfsHor5n3nVZ-weivmfVSNDmxOVBJl2ci-GXEgjL7Iejt74ZFJLImJhbbRp2sc&_nc_ohc=7V3Ry85dZj4Q7kNvgFEB977&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AwNEN7VXoE8Ba-IgGn1UtQr&oh=00_AYCkXlbT8n25Mb_jltAPQYye-fRkeHdY148Hg8Szsv-mpw&oe=6739117C"
   },
   {
       "player_name": "Aaron Finch",
@@ -27,7 +27,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "N/A",
       "price": 1200000,
-      "player_img": "https://example.com/images/aaron_finch.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/434241573_1632756050794518_6160498804006777216_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGk9A5cqxe5JlfEFqzNq_YphrahuZirPZKGtqG5mKs9krrlHfWntW7oUzMtLbfGLDpeiLtzuLOiupBM8sk_flQd&_nc_ohc=GCmgCOUWQXoQ7kNvgHThE_x&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AKCOEbbsb_sDlnuzBNIfaa5&oh=00_AYDB7Pvp5KXDUZS8LSJCXBtSZ31uXyaYQSS61a7USz8UPw&oe=673931DA"
   },
   {
       "player_name": "Mitchell Johnson",
@@ -37,7 +37,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm fast",
       "price": 1400000,
-      "player_img": "https://example.com/images/mitchell_johnson.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/412121248_1577799522956838_2081579151512709535_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHtZ2vHTlX3B1sDlM40vFg_ZLSycY47CkdktLJxjjsKR3MFakKNICPx_WEwfnt7-MEq1o5PFk8TAtLBzmo8a_ER&_nc_ohc=Glqd044F30wQ7kNvgEnLdKG&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AJeyzEPe48M-_JzvkK7aaNC&oh=00_AYDhiwZ5IQRs_omEuiubR66T-MiUBOqJN3QL0_9aBepq4Q&oe=67392EBC"
   },
   {
       "player_name": "Mitchell Marsh",
@@ -47,7 +47,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm medium-fast",
       "price": 1100000,
-      "player_img": "https://example.com/images/mitchell_marsh.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/394274532_1542644526472338_929530209338994506_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF3yeTXB0_UXTWS5oeqPbsaPTRSAETzfT89NFIARPN9PyHYTKPniivg-uspOgFhRcL9ggbGKhfLN45JylR8b9T2&_nc_ohc=FAJFD10ZhV4Q7kNvgHiztEE&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AiZColFAJj6V8nWyjZ1ykGQ&oh=00_AYCT4sXT1r9x49at-UtuNLeiNgxUOCwdIAo6Qp2Vpt76rQ&oe=67393040"
   },
   {
       "player_name": "Peter Nevill",
@@ -57,7 +57,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "N/A",
       "price": 950000,
-      "player_img": "https://example.com/images/peter_nevill.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/448760025_1687555385314584_5217191101774144170_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEyDiAvQTUmrjyrwdDMG1sHXDhM41ia30pcOEzjWJrfStLlf78-uAgfzVYz_h5do2JMpcr6Be3TZ7kDx9FQ__JK&_nc_ohc=a9188FgA92gQ7kNvgFkPq37&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AvMK2Qd287JLO628NUvrfIC&oh=00_AYATIDEmBpMrQvksfiGzWy6DPwS3O2fWyxO30qVniz5KwA&oe=673926BB"
   },
   {
       "player_name": "Keshav Maharaj",
@@ -67,7 +67,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm orthodox",
       "price": 780000,
-      "player_img": "https://example.com/images/keshav_maharaj.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/421200807_1597885667614890_9142492458121470335_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGCWjNL0UEE4sez4_WjuM4ikdTgIchZyKGR1OAhyFnIoXiqwNBNJdgMYZjwfDkRnkWm7BpYNds_sEZgEpDeZ7RK&_nc_ohc=jlzShUZZaDsQ7kNvgH4OE78&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AJeyzEPe48M-_JzvkK7aaNC&oh=00_AYDh0W1dlGzCOP0XSqa35UKZnIeCnxpzQi5OcOxD9qXKYQ&oe=6739189C"
   },
   {
       "player_name": "Rashid Khan",
@@ -77,7 +77,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Leg break",
       "price": 1500000,
-      "player_img": "https://example.com/images/rashid_khan.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/412994695_1577799406290183_3316489090250340610_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGVU7bYRau1oP-K-w5sjOStEiGl_4vIqygSIaX_i8irKJfbmN6QMOr_gHJfljq1BuFAshtfDz-mbnw_T6XB3c34&_nc_ohc=3eRTddQpoyMQ7kNvgHbQGiL&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AJeyzEPe48M-_JzvkK7aaNC&oh=00_AYARRNKIiuyJGjSgGDu0LHMLOk-rfG_OguDNPQl9KRO79A&oe=67392C2A"
   },
   {
       "player_name": "Kuldeep Yadav",
@@ -87,7 +87,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm chinaman",
       "price": 1300000,
-      "player_img": "https://example.com/images/kuldeep_yadav.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/357766831_1485115142225277_482156482663564548_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHqsTkTcb6C6ymNrg2_bG_4A5KG9cDLi2YDkob1wMuLZiGgwTGs3opQji-UF08H_rYrmIz2n8H14MCMR33ORUyn&_nc_ohc=WPXm3ezgpewQ7kNvgG-getk&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AwUGSZBPyCuCSJnObFfgLfl&oh=00_AYAPsgPKfsyph6O-RMH0OA8W1VyJ1GaNgrFbXaVbA18FZQ&oe=673923F7"
   },
   {
       "player_name": "Ryan Harris",
@@ -97,7 +97,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm fast-medium",
       "price": 1050000,
-      "player_img": "https://example.com/images/ryan_harris.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/141340972_911069939629803_536260183057407400_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFYqjABDF1FNzjkpH7vFuTUjtNAsgQwlg2O00CyBDCWDbyZRnu3jia3yJSPXyZgNDb-rw9XOgFJT49y_DV6Qauk&_nc_ohc=lf5FcdsYKGgQ7kNvgH5e32C&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AtRgt0LypF96rX2F9JJJ4wu&oh=00_AYDv1BVjC6wf6uGHWVDJxbQZ1jd6QmY46-Yi1xssOl9zvg&oe=675AA107"
   },
   {
       "player_name": "Trent Boult",
@@ -107,7 +107,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm fast-medium",
       "price": 1350000,
-      "player_img": "https://example.com/images/trent_boult.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/118703286_810514756351989_9025544228905942916_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeErkypIumLjSs23gqRmwB_NFyiws4OBjLQXKLCzg4GMtM-R9ZuHR3mYKAyAIqfi0C9JWEmYlflk1UbebP0N49IX&_nc_ohc=QjBfXJbfzFkQ7kNvgEb5om5&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=A2k8ndobNohDv1d2mxcAsI1&oh=00_AYAgcMSP57M2kLYA_Nd63bjjVws3Yhq1jKSorChAVpc4Ig&oe=675ACDF0"
   },
   {
       "player_name": "Ben Stokes",
@@ -117,7 +117,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Right-arm fast-medium",
       "price": 1450000,
-      "player_img": "https://example.com/images/ben_stokes.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/118890502_810514719685326_8512353202431252065_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEXcZTceC1C3iEGaXDy0zA7Sf2zFjNWi7tJ_bMWM1aLu9-fOyadTW6IOtu48Z7vXoy1xdycR9AJ4MplOu-JJJd6&_nc_ohc=sZOjN9esQ_4Q7kNvgEqgwJC&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=ADWSDaB3Si5jEXTJVUu1M3C&oh=00_AYAvAkylMfQI6FrONY0n-rIsUUtIxX_u2zBiWvkquDXLPA&oe=675AA911"
   },
   {
       "player_name": "Joe Root",
@@ -127,7 +127,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm off-break",
       "price": 1550000,
-      "player_img": "https://example.com/images/joe_root.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/118913142_810513476352117_2012592460190188187_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHHPGO1KzLAnB4MqK1dIZF9VEVaounG-vpURVqi6cb6-ikADhdzstaJk9C1bMjWBPe59ZQrpZZTcsHeryMr5hA0&_nc_ohc=TYm-FMh2KfgQ7kNvgHinSa8&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AY-0Uls7DTjwcdfwbZa97Ql&oh=00_AYBpz4_o-LsvQZBasMIl7UjQ7RduqtLE9TxVfYOcr9ZR3Q&oe=675AC91E"
   },
   {
       "player_name": "Shakib Al Hasan",
@@ -137,7 +137,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm orthodox",
       "price": 1200000,
-      "player_img": "https://example.com/images/shakib_al_hasan.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/102458135_742674233136042_5633077241970688_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGVwxiyYO-Uyz3lRHHUyeiSsHwyZJQGUWKwfDJklAZRYnv7kvhNnvel14irfRgqlvDRwSDw6uLS3EUEIkRw0R91&_nc_ohc=x2Ycpoz4vicQ7kNvgH86FQO&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AiHbMcTpvEM4OZH8K153NTc&oh=00_AYBBpVtaB3-NrTD4VKNcr8pTuIB87OOncDF86j-M5fg2VQ&oe=675ACD96"
   },
   {
       "player_name": "David Warner",
@@ -147,7 +147,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "N/A",
       "price": 1450000,
-      "player_img": "https://example.com/images/david_warner.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t1.6435-9/84098292_742674266469372_8247232799195529216_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHcpiT4FtSCXRZOuJaos7jGnOr0G9X3TCmc6vQb1fdMKfh-I9fQvrJMZU_YFFkoF_UEkGf7IHtrpJcL4JPg89Im&_nc_ohc=5HjuUAUdUHQQ7kNvgFC12bo&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=A6wpowAQN9lMrP3mEShQPwT&oh=00_AYDj5H2p7BZY8ojin6sa6l5U1t0qmP-bF-_DvCzT6ctzKQ&oe=675AB9D2"
   },
   {
       "player_name": "Kane Williamson",
@@ -157,7 +157,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm off-break",
       "price": 1600000,
-      "player_img": "https://example.com/images/kane_williamson.jpg"
+      "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t1.6435-9/118860983_810514323018699_1746738350665977147_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFntUOh1GOBOGCsXnczmKPMwJkeUQJLuKbAmR5RAku4prgCV0RCQirtImRRh_3GSH6vbybEiZP_lw5vRBXy_9Hg&_nc_ohc=q0r12cxHTLwQ7kNvgFJYFFO&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AfFmfqPutXGySeth32q8rP3&oh=00_AYBK4COnJLniOQNd-ADn3S6wR5xoWLgsNrlLH07u70-QEQ&oe=675AB64C"
   },
   {
       "player_name": "Rohit Sharma",
@@ -167,7 +167,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm off-break",
       "price": 1500000,
-      "player_img": "https://example.com/images/rohit_sharma.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t1.6435-9/118766515_810514243018707_1471227822097859864_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHU28wuLQ70I23nPHWJYP8QZbq7wtmCBedlurvC2YIF56hqbW4dFTFs2u97ZLo3Lt8oAIrwQFdFhKZqWezm-MVE&_nc_ohc=DMfHS_TBcAkQ7kNvgFpCM_8&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AG4GYOMe3R2u7mO0iGvN0OG&oh=00_AYAXmf1TqQkiDKcHhMufUubqxhb46RHR_QHCKJimwV0IIA&oe=675ABE5F"
   },
   {
       "player_name": "Virat Kohli",
@@ -177,7 +177,7 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm medium",
       "price": 2000000,
-      "player_img": "https://example.com/images/virat_kohli.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/425623190_1604512563618867_8339562867008807558_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG8yhUGQGLgFsuegOlAYv2XB1p08GkrVtEHWnTwaStW0XTxse5yuipPE8LYAhL6QIgyFxEGZtD5KSNg_MI1YVi0&_nc_ohc=lhNFNlJ6YPUQ7kNvgEJa7xA&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=A5AQQwBx8j47JPgeZ9KXW5n&oh=00_AYCLBB-2PbHnpEqN0mbDqQPSlFRH-Tyq8a2Db9iD2DGLvg&oe=6738FA29"
   },
   {
       "player_name": "Quinton de Kock",
@@ -187,7 +187,7 @@
       "batting_style": "Left-hand bat",
       "bowling_style": "N/A",
       "price": 1400000,
-      "player_img": "https://example.com/images/quinton_de_kock.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/412994695_1577799406290183_3316489090250340610_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGVU7bYRau1oP-K-w5sjOStEiGl_4vIqygSIaX_i8irKJfbmN6QMOr_gHJfljq1BuFAshtfDz-mbnw_T6XB3c34&_nc_ohc=3eRTddQpoyMQ7kNvgHbQGiL&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AqedgGsrrO0YR8OY8RLE0QA&oh=00_AYD93kBDhxMEtlvuBjxpPIbLKvZQDfb_Y6Mv8dOwXDQAPw&oe=67392C2A"
   },
   {
       "player_name": "Steve Smith",
@@ -197,6 +197,6 @@
       "batting_style": "Right-hand bat",
       "bowling_style": "Leg break",
       "price": 1750000,
-      "player_img": "https://example.com/images/steve_smith.jpg"
+      "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/359496262_1487510838652374_8528456785985062560_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeEVDYKCih4527SUwE4VPV6NjerMiIYRN1eN6syIhhE3VwiMRBitf7dX4ShdcyKepyFUpDXvKkRxj4NHuKIpUgCm&_nc_ohc=klVK5tMSOZQQ7kNvgFFVDiq&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AlVZcgsZc-T4YhllcNfWw7w&oh=00_AYAaM9cvnUiuCGsAyuZ2nyoYV53GLFvyBpdGimNI1FCCZQ&oe=673912CB"
   }
 ]
