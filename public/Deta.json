@@ -1,93 +1,202 @@
 [
-    {
+  {
       "player_name": "Michael Clarke",
       "position": "Batsman",
       "country": "Australia",
       "rating": 782,
       "batting_style": "Right-hand bat",
       "bowling_style": "Leg break",
-      "price": 1000000
-    },
-    {
+      "price": 1000000,
+      "player_img": "https://example.com/images/michael_clarke.jpg"
+  },
+  {
       "player_name": "James Faulkner",
       "position": "All-rounder",
       "country": "Australia",
       "rating": 550,
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm medium-fast",
-      "price": 850000
-    },
-    {
+      "price": 850000,
+      "player_img": "https://example.com/images/james_faulkner.jpg"
+  },
+  {
       "player_name": "Aaron Finch",
       "position": "Batsman",
       "country": "Australia",
       "rating": 751,
       "batting_style": "Right-hand bat",
       "bowling_style": "N/A",
-      "price": 1200000
-    },
-    {
+      "price": 1200000,
+      "player_img": "https://example.com/images/aaron_finch.jpg"
+  },
+  {
       "player_name": "Mitchell Johnson",
       "position": "Bowler",
       "country": "Australia",
       "rating": 800,
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm fast",
-      "price": 1400000
-    },
-    {
+      "price": 1400000,
+      "player_img": "https://example.com/images/mitchell_johnson.jpg"
+  },
+  {
       "player_name": "Mitchell Marsh",
       "position": "All-rounder",
       "country": "Australia",
       "rating": 730,
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm medium-fast",
-      "price": 1100000
-    },
-    {
+      "price": 1100000,
+      "player_img": "https://example.com/images/mitchell_marsh.jpg"
+  },
+  {
       "player_name": "Peter Nevill",
       "position": "Wicketkeeper",
       "country": "Australia",
       "rating": 720,
       "batting_style": "Right-hand bat",
       "bowling_style": "N/A",
-      "price": 950000
-    },
-    {
+      "price": 950000,
+      "player_img": "https://example.com/images/peter_nevill.jpg"
+  },
+  {
       "player_name": "Keshav Maharaj",
       "position": "Bowler",
       "country": "South Africa",
       "rating": 674,
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm orthodox",
-      "price": 780000
-    },
-    {
+      "price": 780000,
+      "player_img": "https://example.com/images/keshav_maharaj.jpg"
+  },
+  {
       "player_name": "Rashid Khan",
       "position": "Bowler",
       "country": "Afghanistan",
       "rating": 799,
       "batting_style": "Right-hand bat",
       "bowling_style": "Leg break",
-      "price": 1500000
-    },
-    {
+      "price": 1500000,
+      "player_img": "https://example.com/images/rashid_khan.jpg"
+  },
+  {
       "player_name": "Kuldeep Yadav",
       "position": "Bowler",
       "country": "India",
       "rating": 665,
       "batting_style": "Left-hand bat",
       "bowling_style": "Left-arm chinaman",
-      "price": 1300000
-    },
-    {
+      "price": 1300000,
+      "player_img": "https://example.com/images/kuldeep_yadav.jpg"
+  },
+  {
       "player_name": "Ryan Harris",
       "position": "Bowler",
       "country": "Australia",
       "rating": 745,
       "batting_style": "Right-hand bat",
       "bowling_style": "Right-arm fast-medium",
-      "price": 1050000
-    }
-  ]
-  
+      "price": 1050000,
+      "player_img": "https://example.com/images/ryan_harris.jpg"
+  },
+  {
+      "player_name": "Trent Boult",
+      "position": "Bowler",
+      "country": "New Zealand",
+      "rating": 825,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm fast-medium",
+      "price": 1350000,
+      "player_img": "https://example.com/images/trent_boult.jpg"
+  },
+  {
+      "player_name": "Ben Stokes",
+      "position": "All-rounder",
+      "country": "England",
+      "rating": 780,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Right-arm fast-medium",
+      "price": 1450000,
+      "player_img": "https://example.com/images/ben_stokes.jpg"
+  },
+  {
+      "player_name": "Joe Root",
+      "position": "Batsman",
+      "country": "England",
+      "rating": 850,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm off-break",
+      "price": 1550000,
+      "player_img": "https://example.com/images/joe_root.jpg"
+  },
+  {
+      "player_name": "Shakib Al Hasan",
+      "position": "All-rounder",
+      "country": "Bangladesh",
+      "rating": 790,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "Left-arm orthodox",
+      "price": 1200000,
+      "player_img": "https://example.com/images/shakib_al_hasan.jpg"
+  },
+  {
+      "player_name": "David Warner",
+      "position": "Batsman",
+      "country": "Australia",
+      "rating": 775,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "N/A",
+      "price": 1450000,
+      "player_img": "https://example.com/images/david_warner.jpg"
+  },
+  {
+      "player_name": "Kane Williamson",
+      "position": "Batsman",
+      "country": "New Zealand",
+      "rating": 840,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm off-break",
+      "price": 1600000,
+      "player_img": "https://example.com/images/kane_williamson.jpg"
+  },
+  {
+      "player_name": "Rohit Sharma",
+      "position": "Batsman",
+      "country": "India",
+      "rating": 810,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm off-break",
+      "price": 1500000,
+      "player_img": "https://example.com/images/rohit_sharma.jpg"
+  },
+  {
+      "player_name": "Virat Kohli",
+      "position": "Batsman",
+      "country": "India",
+      "rating": 900,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Right-arm medium",
+      "price": 2000000,
+      "player_img": "https://example.com/images/virat_kohli.jpg"
+  },
+  {
+      "player_name": "Quinton de Kock",
+      "position": "Wicketkeeper",
+      "country": "South Africa",
+      "rating": 780,
+      "batting_style": "Left-hand bat",
+      "bowling_style": "N/A",
+      "price": 1400000,
+      "player_img": "https://example.com/images/quinton_de_kock.jpg"
+  },
+  {
+      "player_name": "Steve Smith",
+      "position": "Batsman",
+      "country": "Australia",
+      "rating": 890,
+      "batting_style": "Right-hand bat",
+      "bowling_style": "Leg break",
+      "price": 1750000,
+      "player_img": "https://example.com/images/steve_smith.jpg"
+  }
+]
