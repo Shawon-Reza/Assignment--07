@@ -10,26 +10,24 @@ function App() {
   const handleFreeCredit = () => {          // Claim Free Coin
     setTotalCoin(totalCoin + 99999999)
   }
+// Update Coins after puchesh
+  const handleCOinAfterPurchase=(price)=>{
+    console.log("price",price);
+    setTotalCoin(totalCoin-price)
+  }
 
 
 
-  const [selectedPlayers, setSelectedPlayers] = useState([])    // State for Selected Players details
+ 
 
-  const handlePlayerSelect = (player) => {
-    const newselectPlayers= [...selectedPlayers,player]
-    setSelectedPlayers(newselectPlayers)
-
-  };
-  console.log(selectedPlayers);
-
-
+// test()
 
 
   return (
     <>
       <Navbar handleFreeCredit={handleFreeCredit} totalCoin={totalCoin}></Navbar>
       <AllPlayers 
-      onSelectPlayer={handlePlayerSelect}
+     handleCOinAfterPurchase={handleCOinAfterPurchase}
       ></AllPlayers>
 
 

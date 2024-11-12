@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import SinglePlayer from "../singlePlayer/singlePlayer";
+import { text } from "@fortawesome/fontawesome-svg-core";
+import { getStoredPlayers } from "../LocalStorage/Localstorage";
 
-const AllPlayers = ({onSelectPlayer}) => {
+
+
+const AllPlayers = ({ handleCOinAfterPurchase }) => {
     // Activ Button State
-
+    text()
     const [activetbn, setActivetbn] = useState({
         cart: true,
         status: "cart"
@@ -23,6 +27,8 @@ const AllPlayers = ({onSelectPlayer}) => {
             })
         }
     }
+
+
     // State For All Players data 
     const [allPlayers, setAllPlayers] = useState([])  //All players Details
     //UseEffect for Fetch Facked Data For All Players.
@@ -33,6 +39,38 @@ const AllPlayers = ({onSelectPlayer}) => {
             .then(res => setAllPlayers(res))
             .catch(error => { "Error occur while Fetching ALl players Details", error })
     }, [])
+
+
+    const [selectedPlayers, setSelectedPlayers] = useState([])    // State for Selected Players details after stored in Local storage.
+
+    const handlePlayerSelect = (player) => {
+        const isexist = selectedPlayers.find(p => p.ID == player.ID)
+        if (isexist) {
+            alert("Already Exits")
+        }
+        else {
+            const newselectPlayers = [...selectedPlayers, player]
+            setSelectedPlayers(newselectPlayers)
+        }
+
+    };
+
+    // Local Storage Part
+    const [storedplayers,setStoredPlayers]=useState([])  //storedplayers= localStorage Saved Data
+    useEffect(() => {
+        const LsPlayersId = getStoredPlayers()  //Localstorage Players ID
+        
+        const StoredPlayerslist = []
+        for (const id of LsPlayersId) {
+            const Player = allPlayers.find(p => p.ID == id)
+            if (Player) {
+                StoredPlayerslist.push(Player)
+                // console.log("Stored",StoredPlayerslist);
+                setStoredPlayers(StoredPlayerslist)
+            }
+        } 
+    }, [selectedPlayers,allPlayers])
+    console.log("LS Saved Players",storedplayers);
 
 
 
@@ -59,8 +97,8 @@ const AllPlayers = ({onSelectPlayer}) => {
                         allPlayers.map((player, idx) => <SinglePlayer
                             key={idx}
                             player={player}
-                            onSelectPlayer={onSelectPlayer}
-                           
+                            handlePlayerSelect={handlePlayerSelect}
+                            handleCOinAfterPurchase={handleCOinAfterPurchase}
                         ></SinglePlayer>)
                     }
                 </div>

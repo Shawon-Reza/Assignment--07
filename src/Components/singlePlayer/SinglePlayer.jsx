@@ -1,7 +1,9 @@
+import { addToLs } from "../LocalStorage/Localstorage";
 
-const SinglePlayer = ({ player,onSelectPlayer }) => {
+const SinglePlayer = ({ player, handlePlayerSelect, handleCOinAfterPurchase }) => {
 
-    const {price, position,position:player_position,player_img,player_name,country,batting_style,bowling_style}=player
+    // console.log(handleCOinAfterPurchase)
+    const { price, position, position: player_position, player_img, player_name, country, batting_style, bowling_style ,ID} = player
 
     return (
         <div className="border shadow-lg p-3 rounded-lg">
@@ -17,7 +19,11 @@ const SinglePlayer = ({ player,onSelectPlayer }) => {
             <hr />
             <div className="flex justify-between items-center">
                 <p>Price : {price} </p>
-                <button onClick={() => onSelectPlayer(player)} className="btn mt-1">Choose Player</button>
+                <button onClick={() => {
+                    handlePlayerSelect(player);
+                    handleCOinAfterPurchase(price);
+                    addToLs(ID);
+                }} className="btn mt-1">Choose Player</button>
             </div>
         </div>
     );
