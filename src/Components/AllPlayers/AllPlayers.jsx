@@ -117,13 +117,9 @@ const AllPlayers = ({ handleCOinAfterPurchase }) => {
                                         LSplayersData={player}
                                     ></Selected>)
                                 }
+                                <button className="btn my-7">Add More Player</button>
                             </div>)
                 }
-
-
-
-
-
 
                 {/* All Players Container End */}
             </div>

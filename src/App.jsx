@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import AllPlayers from './Components/AllPlayers/AllPlayers'
 import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -10,27 +11,25 @@ function App() {
   const handleFreeCredit = () => {          // Claim Free Coin
     setTotalCoin(totalCoin + 99999999)
   }
-// Update Coins after puchesh
-  const handleCOinAfterPurchase=(price)=>{
-    console.log("price",price);
-    setTotalCoin(totalCoin-price)
+  // Update Coins after puchesh
+  const handleCOinAfterPurchase = (price) => {
+    console.log("price", price);
+    setTotalCoin(totalCoin - price)
   }
 
 
 
- 
-
-// test()
+  // test()
 
 
   return (
     <>
       <Navbar handleFreeCredit={handleFreeCredit} totalCoin={totalCoin}></Navbar>
-      <AllPlayers 
-     handleCOinAfterPurchase={handleCOinAfterPurchase}
+      <AllPlayers
+        handleCOinAfterPurchase={handleCOinAfterPurchase}
       ></AllPlayers>
 
-
+      <Footer></Footer>
     </>
   )
 }
