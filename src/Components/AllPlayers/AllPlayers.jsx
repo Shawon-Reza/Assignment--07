@@ -46,7 +46,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
     const [selectedPlayers, setSelectedPlayers] = useState([])    // State for Selected Players details after stored in Local storage.
 
     const handlePlayerSelect = (player) => {
-
+        console.log(player);
         if (totalCoin > 0) {
             const isexist = storedplayers.find(p => p.ID == player.ID)
             if (isexist) {
@@ -56,6 +56,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
                 const newselectPlayers = [...selectedPlayers, player]
                 setSelectedPlayers(newselectPlayers)
             }
+
         }
         else {
             alert("Dont Have Enough Coins")
@@ -114,7 +115,9 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
         <div className="container mx-auto mt-10">
             {/* Active Button Container Start*/}
             <div className="flex justify-between items-center mb-3">
-                <h3 className="text-3xl font-bold">Available Players</h3>
+                <h3 className="text-3xl font-bold">
+                    {activetbn.cart ? "Available Players" : `Selected Players (${storedplayers.length}/6)`}
+                </h3>
 
                 <div className=" space-x-3">
                     {/* Acative Button */}
@@ -130,7 +133,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
 
                 {
                     activetbn.cart ? (
-                        <div className="grid grid-cols-2 gap-3">
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                             {
                                 allPlayers.map((player, idx) => <SinglePlayer
                                     key={idx}

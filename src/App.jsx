@@ -16,7 +16,7 @@ function App() {
   // Update Coins after puchesh
   const handleCOinAfterPurchase = (price) => {
     console.log(price);
-    const AvailableCoin = totalCoin - price
+    const AvailableCoin = totalCoin-price
     if (AvailableCoin > 0) {
       setTotalCoin(AvailableCoin)
     }
