@@ -71,7 +71,28 @@ const AllPlayers = ({ handleCOinAfterPurchase }) => {
             }
         }
     }, [selectedPlayers, allPlayers])
-    console.log("LS Saved Players", storedplayers);
+    // console.log("LS Saved Players", storedplayers);
+
+
+
+    // Delete Local Starage players Details
+
+// const [deleteplayer,setdeleteplayer]=useState([])
+
+const deletePlayerDetails = (player_ID) => {
+    const lsData = JSON.parse(localStorage.getItem('Storedplayers')) || [];
+    const updatedLsData = lsData.filter(id => id !== player_ID);
+    
+    localStorage.setItem('Storedplayers', JSON.stringify(updatedLsData));
+    setStoredPlayers(updatedLsData.map(id => allPlayers.find(p => p.ID === id)).filter(Boolean));
+};
+
+
+
+    // Add a function to show all players
+    const showAllPlayers = () => {
+        setActivetbn({ cart: true, status: "cart" });
+    };
 
 
 
@@ -115,9 +136,10 @@ const AllPlayers = ({ handleCOinAfterPurchase }) => {
                                     storedplayers.map((player, idx) => <Selected
                                         key={idx}
                                         LSplayersData={player}
+                                        deletePlayerDetails={deletePlayerDetails}
                                     ></Selected>)
                                 }
-                                <button className="btn my-7">Add More Player</button>
+                                <button onClick={showAllPlayers} className="btn my-7">Add More Player</button>
                             </div>)
                 }
 

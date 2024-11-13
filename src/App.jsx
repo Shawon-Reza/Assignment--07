@@ -11,10 +11,16 @@ function App() {
   const handleFreeCredit = () => {          // Claim Free Coin
     setTotalCoin(totalCoin + 99999999)
   }
+
   // Update Coins after puchesh
   const handleCOinAfterPurchase = (price) => {
-    console.log("price", price);
-    setTotalCoin(totalCoin - price)
+    const AvailableCoin = totalCoin - price
+    if(AvailableCoin>0){
+      setTotalCoin(AvailableCoin)
+    }
+    else{
+      alert("Dont Have Enough Coins")
+    }
   }
 
 

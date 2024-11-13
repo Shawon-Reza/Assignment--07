@@ -8,6 +8,7 @@ const getStoredPlayers = () => {
     return [];
 }
 
+// saveData TO localStorage
 const saveTOLS = (players) => {
     const Storedplayers = JSON.stringify(players)
     localStorage.setItem('Storedplayers', Storedplayers)
