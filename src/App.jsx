@@ -4,6 +4,7 @@ import './App.css'
 import AllPlayers from './Components/AllPlayers/AllPlayers'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
+import Selected from './Components/Selected/Selected';
 
 function App() {
 
@@ -15,11 +16,11 @@ function App() {
   // Update Coins after puchesh
   const handleCOinAfterPurchase = (price) => {
     const AvailableCoin = totalCoin - price
-    if(AvailableCoin>0){
+    if (AvailableCoin > 0) {
       setTotalCoin(AvailableCoin)
     }
-    else{
-      alert("Dont Have Enough Coins")
+    else {
+      // alert("Dont Have Enough Coins")
     }
   }
 
@@ -33,6 +34,9 @@ function App() {
       <Navbar handleFreeCredit={handleFreeCredit} totalCoin={totalCoin}></Navbar>
       <AllPlayers
         handleCOinAfterPurchase={handleCOinAfterPurchase}
+        setTotalCoin={setTotalCoin}
+        totalCoin={totalCoin}
+
       ></AllPlayers>
 
       <Footer></Footer>

@@ -6,7 +6,9 @@ import Selected from "../Selected/Selected";
 
 
 
-const AllPlayers = ({ handleCOinAfterPurchase }) => {
+const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
+
+    console.log(totalCoin);
     // Activ Button State
     text()
     const [activetbn, setActivetbn] = useState({
@@ -29,7 +31,6 @@ const AllPlayers = ({ handleCOinAfterPurchase }) => {
         }
     }
 
-
     // State For All Players data 
     const [allPlayers, setAllPlayers] = useState([])  //All players Details
     //UseEffect for Fetch Facked Data For All Players.
@@ -45,13 +46,19 @@ const AllPlayers = ({ handleCOinAfterPurchase }) => {
     const [selectedPlayers, setSelectedPlayers] = useState([])    // State for Selected Players details after stored in Local storage.
 
     const handlePlayerSelect = (player) => {
-        const isexist = selectedPlayers.find(p => p.ID == player.ID)
-        if (isexist) {
-            alert("Already Exits")
+
+        if (totalCoin>0) {
+            const isexist = selectedPlayers.find(p => p.ID == player.ID)
+            if (isexist) {
+                alert("Already Exits")
+            }
+            else {
+                const newselectPlayers = [...selectedPlayers, player]
+                setSelectedPlayers(newselectPlayers)
+            }
         }
-        else {
-            const newselectPlayers = [...selectedPlayers, player]
-            setSelectedPlayers(newselectPlayers)
+        else{
+            alert("Dont Have Enough Coins")
         }
 
     };
@@ -77,15 +84,15 @@ const AllPlayers = ({ handleCOinAfterPurchase }) => {
 
     // Delete Local Starage players Details
 
-// const [deleteplayer,setdeleteplayer]=useState([])
+    // const [deleteplayer,setdeleteplayer]=useState([])
 
-const deletePlayerDetails = (player_ID) => {
-    const lsData = JSON.parse(localStorage.getItem('Storedplayers')) || [];
-    const updatedLsData = lsData.filter(id => id !== player_ID);
-    
-    localStorage.setItem('Storedplayers', JSON.stringify(updatedLsData));
-    setStoredPlayers(updatedLsData.map(id => allPlayers.find(p => p.ID === id)).filter(Boolean));
-};
+    const deletePlayerDetails = (player_ID) => {
+        const lsData = JSON.parse(localStorage.getItem('Storedplayers')) || [];
+        const updatedLsData = lsData.filter(id => id !== player_ID);
+
+        localStorage.setItem('Storedplayers', JSON.stringify(updatedLsData));
+        setStoredPlayers(updatedLsData.map(id => allPlayers.find(p => p.ID === id)).filter(Boolean));
+    };
 
 
 
