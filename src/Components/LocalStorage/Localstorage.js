@@ -10,8 +10,14 @@ const getStoredPlayers = () => {
 
 // saveData TO localStorage
 const saveTOLS = (players) => {
-    const Storedplayers = JSON.stringify(players)
-    localStorage.setItem('Storedplayers', Storedplayers)
+    if (players.length < 7) {
+        const Storedplayers = JSON.stringify(players)
+        localStorage.setItem('Storedplayers', Storedplayers)
+    }
+    else {
+        alert("You can Choose max 6 Players")
+    }
+
 }
 
 const addToLs = (id) => {
@@ -27,4 +33,4 @@ const addToLs = (id) => {
 
 }
 
-export { addToLs ,getStoredPlayers}
+export { addToLs, getStoredPlayers }

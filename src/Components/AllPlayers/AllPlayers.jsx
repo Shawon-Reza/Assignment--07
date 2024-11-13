@@ -8,7 +8,7 @@ import Selected from "../Selected/Selected";
 
 const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCoinsAfterDelete }) => {
 
-    console.log(totalCoin);
+    // console.log(totalCoin);
     // Activ Button State
     text()
     const [activetbn, setActivetbn] = useState({
@@ -46,7 +46,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
     const [selectedPlayers, setSelectedPlayers] = useState([])    // State for Selected Players details after stored in Local storage.
 
     const handlePlayerSelect = (player) => {
-        console.log(player);
+        // console.log(player);
         if (totalCoin > 0) {
             const isexist = storedplayers.find(p => p.ID == player.ID)
             if (isexist) {
@@ -79,7 +79,6 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
             }
         }
     }, [selectedPlayers, allPlayers])
-    // console.log("LS Saved Players", storedplayers);
 
 
 
