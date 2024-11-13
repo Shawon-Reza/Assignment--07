@@ -1,40 +1,39 @@
-
-import { useState } from 'react'
-import './App.css'
-import AllPlayers from './Components/AllPlayers/AllPlayers'
-import Navbar from './Components/Navbar/Navbar'
-import Footer from './Components/Footer/Footer'
-import Selected from './Components/Selected/Selected';
+import { useEffect, useState } from 'react';
+import './App.css';
+import AllPlayers from './Components/AllPlayers/AllPlayers';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
+  // Initialize totalCoin with the value from localStorage or default to 0
+  const [totalCoin, setTotalCoin] = useState(() => {
+    const savedCoins = JSON.parse(localStorage.getItem('coins'));
+    return savedCoins || 0;
+  });
 
-  const [totalCoin, setTotalCoin] = useState(0)  // State For Total Coin
-  const handleFreeCredit = () => {          // Claim Free Coin
-    setTotalCoin(totalCoin + 99999999)
-  }
+  const handleFreeCredit = () => {
+    setTotalCoin(prevTotalCoin => prevTotalCoin + 99999999);
+  };
 
-  // Update Coins after puchesh
+  // Store available coins in localStorage whenever totalCoin changes
+  useEffect(() => {
+    localStorage.setItem('coins', JSON.stringify(totalCoin));
+  }, [totalCoin]);
+
+  // Update Coins after purchase
   const handleCOinAfterPurchase = (price) => {
-    // console.log(price);
-    const AvailableCoin = totalCoin - price
-    if (AvailableCoin > 0) {
-      setTotalCoin(AvailableCoin)
+    const availableCoin = totalCoin - price;
+    if (availableCoin >= 0) {
+      setTotalCoin(availableCoin);
+    } else {
+      alert("Don't Have Enough Coins");
     }
-    else {
-      // alert("Dont Have Enough Coins")
-    }
-  }
+  };
 
-  // Upade TotalCoin After Deleting
+  // Update totalCoin after deleting a player
   const updateCoinsAfterDelete = (price) => {
-    setTotalCoin(totalCoin + price)
-    // console.log(price);
-  }
-
-
-
-  // test()
-
+    setTotalCoin(prevTotalCoin => prevTotalCoin + price);
+  };
 
   return (
     <>
@@ -44,12 +43,10 @@ function App() {
         setTotalCoin={setTotalCoin}
         totalCoin={totalCoin}
         updateCoinsAfterDelete={updateCoinsAfterDelete}
-
-      ></AllPlayers>
-
+      />
       <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

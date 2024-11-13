@@ -8,7 +8,6 @@ import Selected from "../Selected/Selected";
 
 const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCoinsAfterDelete }) => {
 
-    // console.log(totalCoin);
     // Activ Button State
     text()
     const [activetbn, setActivetbn] = useState({
@@ -88,8 +87,6 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
 
     const deletePlayerDetails = (LSplayersData) => {
         const { ID, price } = LSplayersData
-        // setTotalCoin(totalCoin + price)         //Increace Total Coin
-
         const lsData = JSON.parse(localStorage.getItem('Storedplayers')) || [];
         const updatedLsData = lsData.filter(id => id !== ID);
 
