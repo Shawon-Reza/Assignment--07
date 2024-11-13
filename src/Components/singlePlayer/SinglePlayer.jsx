@@ -1,6 +1,6 @@
 import { addToLs } from "../LocalStorage/Localstorage";
 
-const SinglePlayer = ({ player, handlePlayerSelect, handleCOinAfterPurchase }) => {
+const SinglePlayer = ({ player, handlePlayerSelect, handleCOinAfterPurchase ,totalCoin}) => {
 
     // console.log(handleCOinAfterPurchase)
     const { price, position, position: player_position, player_img, player_name, country, batting_style, bowling_style, ID } = player
@@ -26,7 +26,9 @@ const SinglePlayer = ({ player, handlePlayerSelect, handleCOinAfterPurchase }) =
                 <button onClick={() => {
                     handlePlayerSelect(player);
                     handleCOinAfterPurchase(price);
-                    addToLs(ID);
+                    if (totalCoin > 0) {
+                        addToLs(ID);
+                    }
                 }} className="btn mt-1">Choose Player</button>
             </div>
         </div>

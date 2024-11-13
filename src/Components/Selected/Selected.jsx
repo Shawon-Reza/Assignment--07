@@ -16,7 +16,7 @@ const Selected = ({ LSplayersData,deletePlayerDetails }) => {
                     <p className="opacity-50">{batting_style}</p>
                 </div>
 
-                <span onClick={()=>{deletePlayerDetails(ID)}} className="cursor-pointer px-5 text-red-500">
+                <span onClick={()=>{deletePlayerDetails(LSplayersData)}} className="cursor-pointer px-5 text-red-500">
                     <FontAwesomeIcon icon={faTrashCan} />
                 </span>
             </div>

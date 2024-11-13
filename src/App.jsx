@@ -15,6 +15,7 @@ function App() {
 
   // Update Coins after puchesh
   const handleCOinAfterPurchase = (price) => {
+    console.log(price);
     const AvailableCoin = totalCoin - price
     if (AvailableCoin > 0) {
       setTotalCoin(AvailableCoin)
@@ -22,6 +23,12 @@ function App() {
     else {
       // alert("Dont Have Enough Coins")
     }
+  }
+
+  // Upade TotalCoin After Deleting
+  const updateCoinsAfterDelete=(price)=>{
+    setTotalCoin(totalCoin+price)
+    console.log(price);
   }
 
 
@@ -36,6 +43,7 @@ function App() {
         handleCOinAfterPurchase={handleCOinAfterPurchase}
         setTotalCoin={setTotalCoin}
         totalCoin={totalCoin}
+        updateCoinsAfterDelete={updateCoinsAfterDelete}
 
       ></AllPlayers>
 

@@ -6,7 +6,7 @@ import Selected from "../Selected/Selected";
 
 
 
-const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
+const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCoinsAfterDelete }) => {
 
     console.log(totalCoin);
     // Activ Button State
@@ -47,8 +47,8 @@ const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
 
     const handlePlayerSelect = (player) => {
 
-        if (totalCoin>0) {
-            const isexist = selectedPlayers.find(p => p.ID == player.ID)
+        if (totalCoin > 0) {
+            const isexist = storedplayers.find(p => p.ID == player.ID)
             if (isexist) {
                 alert("Already Exits")
             }
@@ -57,7 +57,7 @@ const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
                 setSelectedPlayers(newselectPlayers)
             }
         }
-        else{
+        else {
             alert("Dont Have Enough Coins")
         }
 
@@ -86,12 +86,16 @@ const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
 
     // const [deleteplayer,setdeleteplayer]=useState([])
 
-    const deletePlayerDetails = (player_ID) => {
+    const deletePlayerDetails = (LSplayersData) => {
+        const { ID, price } = LSplayersData
+        // setTotalCoin(totalCoin + price)         //Increace Total Coin
+
         const lsData = JSON.parse(localStorage.getItem('Storedplayers')) || [];
-        const updatedLsData = lsData.filter(id => id !== player_ID);
+        const updatedLsData = lsData.filter(id => id !== ID);
 
         localStorage.setItem('Storedplayers', JSON.stringify(updatedLsData));
         setStoredPlayers(updatedLsData.map(id => allPlayers.find(p => p.ID === id)).filter(Boolean));
+        updateCoinsAfterDelete(price)
     };
 
 
@@ -116,7 +120,7 @@ const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
                     {/* Acative Button */}
                     <button className={`${activetbn.cart ? "btn bg-orange-300" : "btn"}`} onClick={() => { handleActiveButton("cart") }}>Available</button>
 
-                    <button className={`${activetbn.cart ? "btn" : "btn bg-orange-300"}`} onClick={() => { handleActiveButton("selected") }}>Selected</button>
+                    <button className={`${activetbn.cart ? "btn" : "btn bg-orange-300"}`} onClick={() => { handleActiveButton("selected") }}>Selected ({storedplayers.length})</button>
                 </div> {/* Active Button Container End */}
 
             </div>
@@ -133,6 +137,7 @@ const AllPlayers = ({ handleCOinAfterPurchase,setTotalCoin,totalCoin }) => {
                                     player={player}
                                     handlePlayerSelect={handlePlayerSelect}
                                     handleCOinAfterPurchase={handleCOinAfterPurchase}
+                                    totalCoin={totalCoin}
                                 ></SinglePlayer>)
                             }
                         </div>)
