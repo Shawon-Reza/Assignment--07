@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='relative flex justify-center w-full'>
 
-            <div className='flex justify-center text-center bg-[#cac6c6] rounded-lg w-4/5 mx-auto py-5 shadow-xl z-50 absolute top-[5%] md:top-[10%] '><form>
+            <div className='flex justify-center text-center bg-[#FFFFFF] bg-gradient-to-r from-blue-100 to-yellow-100 rounded-lg w-4/5 mx-auto py-5 shadow-xl z-50 absolute top-[5%] md:top-[10%] '><form>
                 <h6 className="footer-title">Subscribe to our Newsletter</h6>
                 <fieldset className="form-control w-80">
                     <label className="label">
