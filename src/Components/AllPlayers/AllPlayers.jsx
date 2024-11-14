@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import SinglePlayer from "../singlePlayer/singlePlayer";
 import { text } from "@fortawesome/fontawesome-svg-core";
 import { getStoredPlayers } from "../LocalStorage/Localstorage";
+
 import Selected from "../Selected/Selected";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -49,7 +52,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
         if (totalCoin > 0) {
             const isexist = storedplayers.find(p => p.ID == player.ID)
             if (isexist) {
-                alert("Already Exits")
+                // alert("Already Exits")
             }
             else {
                 const newselectPlayers = [...selectedPlayers, player]
@@ -58,7 +61,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
 
         }
         else {
-            alert("Dont Have Enough Coins")
+            // alert("Dont Have Enough Coins")
         }
 
     };
@@ -75,6 +78,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
                 StoredPlayerslist.push(Player)
                 // console.log("Stored",StoredPlayerslist);
                 setStoredPlayers(StoredPlayerslist)
+                
             }
         }
     }, [selectedPlayers, allPlayers])
@@ -93,6 +97,12 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
         localStorage.setItem('Storedplayers', JSON.stringify(updatedLsData));
         setStoredPlayers(updatedLsData.map(id => allPlayers.find(p => p.ID === id)).filter(Boolean));
         updateCoinsAfterDelete(price)
+
+        toast.warning("Player successfully Removed!", {
+            position: "top-right"
+        });
+        // alert("remove")
+        
     };
 
 
@@ -108,7 +118,9 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
 
 
     return (
+
         <div className="container mx-auto mt-10">
+           
             {/* Active Button Container Start*/}
             <div className="flex justify-between items-center mb-3">
                 <h3 className="text-3xl font-bold">
@@ -126,6 +138,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
 
             <div>
                 {/* All Players Container Start : Dynamically Sshow */}
+                
 
                 {
                     activetbn.cart ? (

@@ -3,6 +3,9 @@ import './App.css';
 import AllPlayers from './Components/AllPlayers/AllPlayers';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   // Initialize totalCoin with the value from localStorage or default to 0
@@ -11,8 +14,10 @@ function App() {
     return savedCoins || 0;
   });
 
+  // Claimn Free Credit unlimitade
   const handleFreeCredit = () => {
     setTotalCoin(prevTotalCoin => prevTotalCoin + 99999999);
+    toast.success("Free Credits are Claimed")
   };
 
   // Store available coins in localStorage whenever totalCoin changes
@@ -26,7 +31,7 @@ function App() {
     if (availableCoin >= 0) {
       setTotalCoin(availableCoin);
     } else {
-      alert("Don't Have Enough Coins");
+      toast.warning("Don't Have Enough Coins");
     }
   };
 
@@ -45,6 +50,9 @@ function App() {
         updateCoinsAfterDelete={updateCoinsAfterDelete}
       />
       <Footer></Footer>
+      <ToastContainer
+        position="top-center"
+/>
     </>
   );
 }

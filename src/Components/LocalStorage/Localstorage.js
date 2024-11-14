@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 
 
 const getStoredPlayers = () => {
@@ -15,7 +16,7 @@ const saveTOLS = (players) => {
         localStorage.setItem('Storedplayers', Storedplayers)
     }
     else {
-        alert("You can Choose max 6 Players")
+        toast.error("You can Choose max 6 Players")
     }
 
 }
@@ -24,11 +25,12 @@ const addToLs = (id) => {
     const Storedplayers = getStoredPlayers();
     const isexits = Storedplayers.find(p => p == id)
     if (isexits) {
-        console.log('Already Save In Local Storage')
+        toast.error('Already Selected')
     }
     else {
         Storedplayers.push(id)
         saveTOLS(Storedplayers)
+        toast.success("Successfully Selected")
     }
 
 }
