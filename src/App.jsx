@@ -41,7 +41,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className='px-5'>
       <Navbar handleFreeCredit={handleFreeCredit} totalCoin={totalCoin}></Navbar>
       <AllPlayers
         handleCOinAfterPurchase={handleCOinAfterPurchase}
@@ -52,8 +52,8 @@ function App() {
       <Footer></Footer>
       <ToastContainer
         position="top-center"
-/>
-    </>
+      />
+    </div>
   );
 }
 

@@ -19,7 +19,7 @@
         "batting_style": "Left-hand bat",
         "bowling_style": "Left-arm medium-fast",
         "price": 850000,
-        "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/405287338_1563673864369404_2618945861622083327_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG5zp9iX5hKrkrg7KQvUrZ851WfsHor5n3nVZ-weivmfVSNDmxOVBJl2ci-GXEgjL7Iejt74ZFJLImJhbbRp2sc&_nc_ohc=7V3Ry85dZj4Q7kNvgFEB977&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AwNEN7VXoE8Ba-IgGn1UtQr&oh=00_AYCkXlbT8n25Mb_jltAPQYye-fRkeHdY148Hg8Szsv-mpw&oe=6739117C"
+        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t1.6435-9/102873851_749138235822975_8790112706798765051_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeG3A2TfbGxQlo8fkgOFrytyN4C0J7G6V4o3gLQnsbpXitUgMJG7Sksd4W3srvbQ_zH3DwP6FRsdsQs9qxFZRC5F&_nc_ohc=77al5mfRlkQQ7kNvgEQsDLb&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=ArSaRkvKaRhk_HVAGeAayC_&oh=00_AYC54C_-6riSptWwEuFq5Z8kZevYY6gSAhdkCLESbK16gA&oe=675D10B6"
     },
     {
         "ID": 3,
@@ -41,7 +41,7 @@
         "batting_style": "Left-hand bat",
         "bowling_style": "Left-arm fast",
         "price": 1400000,
-        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/412121248_1577799522956838_2081579151512709535_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHtZ2vHTlX3B1sDlM40vFg_ZLSycY47CkdktLJxjjsKR3MFakKNICPx_WEwfnt7-MEq1o5PFk8TAtLBzmo8a_ER&_nc_ohc=Glqd044F30wQ7kNvgEnLdKG&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AJeyzEPe48M-_JzvkK7aaNC&oh=00_AYDhiwZ5IQRs_omEuiubR66T-MiUBOqJN3QL0_9aBepq4Q&oe=67392EBC"
+        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t1.6435-9/102873851_749138235822975_8790112706798765051_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeG3A2TfbGxQlo8fkgOFrytyN4C0J7G6V4o3gLQnsbpXitUgMJG7Sksd4W3srvbQ_zH3DwP6FRsdsQs9qxFZRC5F&_nc_ohc=77al5mfRlkQQ7kNvgEQsDLb&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=ArSaRkvKaRhk_HVAGeAayC_&oh=00_AYC54C_-6riSptWwEuFq5Z8kZevYY6gSAhdkCLESbK16gA&oe=675D10B6"
     },
     {
         "ID": 5,
@@ -52,7 +52,7 @@
         "batting_style": "Right-hand bat",
         "bowling_style": "Right-arm medium-fast",
         "price": 1100000,
-        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/394274532_1542644526472338_929530209338994506_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF3yeTXB0_UXTWS5oeqPbsaPTRSAETzfT89NFIARPN9PyHYTKPniivg-uspOgFhRcL9ggbGKhfLN45JylR8b9T2&_nc_ohc=FAJFD10ZhV4Q7kNvgHiztEE&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AiZColFAJj6V8nWyjZ1ykGQ&oh=00_AYCT4sXT1r9x49at-UtuNLeiNgxUOCwdIAo6Qp2Vpt76rQ&oe=67393040"
+        "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/271190256_1125797678157027_5512803318624773911_n.jpg?stp=dst-jpg_s417x417&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGHzbDppHVi1ZsSHgh8Bio2Z-HKBO9DgSpn4coE70OBKvYNt4B0cSK42UXUknizAhrjgG05UXMIVziFsmO4CbzY&_nc_ohc=4hyNPCrNn5MQ7kNvgEAGGim&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AS-EQ50BeDLK6-29GnKtn4V&oh=00_AYCACOyJoribHFOHd8wuyhaDbIi0PLWuxVFLYdyyMAUYdA&oe=673B72ED"
     },
     {
         "ID": 6,
@@ -63,7 +63,7 @@
         "batting_style": "Right-hand bat",
         "bowling_style": "N/A",
         "price": 950000,
-        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/448760025_1687555385314584_5217191101774144170_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEyDiAvQTUmrjyrwdDMG1sHXDhM41ia30pcOEzjWJrfStLlf78-uAgfzVYz_h5do2JMpcr6Be3TZ7kDx9FQ__JK&_nc_ohc=a9188FgA92gQ7kNvgFkPq37&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AvMK2Qd287JLO628NUvrfIC&oh=00_AYATIDEmBpMrQvksfiGzWy6DPwS3O2fWyxO30qVniz5KwA&oe=673926BB"
+        "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/412846187_1577799286290195_3845970045496387565_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEpCKjSTCzVcITmk97BtrJRoOAtQncvJGGg4C1Cdy8kYQ6kXcSJG5mI_7wL9Sb19Y0iRfRhNzdhA9OHHzFro2EY&_nc_ohc=R0S2yo3h1WIQ7kNvgEHN8al&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AN7ImSHGT2LuUHBzrUYhnmS&oh=00_AYCFKcqNcw9BPpj5hi0cqRVN2QBfrFVGQsUCg3H1W17clw&oe=673B8D69"
     },
     {
         "ID": 7,
@@ -74,7 +74,7 @@
         "batting_style": "Left-hand bat",
         "bowling_style": "Left-arm orthodox",
         "price": 780000,
-        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/421200807_1597885667614890_9142492458121470335_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGCWjNL0UEE4sez4_WjuM4ikdTgIchZyKGR1OAhyFnIoXiqwNBNJdgMYZjwfDkRnkWm7BpYNds_sEZgEpDeZ7RK&_nc_ohc=jlzShUZZaDsQ7kNvgH4OE78&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AJeyzEPe48M-_JzvkK7aaNC&oh=00_AYDh0W1dlGzCOP0XSqa35UKZnIeCnxpzQi5OcOxD9qXKYQ&oe=6739189C"
+        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/412685738_1577799339623523_595035796308436808_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGlEBc7_vLKMKSGBIC_OFfX_CToBlIPpwj8JOgGUg-nCKbBdDFC6A9dgp-tNZ9v4wTrNtmrPVXpyybptUYAla2m&_nc_ohc=CZRiwztQocQQ7kNvgH5Fzs3&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AqylyA2E6ZrmSB_RujD5Kur&oh=00_AYAfEg-HyC-yB90jQD2fsIHFkmvn_nbR2x7YznWoxLGh0Q&oe=673B7F6B"
     },
     {
         "ID": 8,
@@ -96,7 +96,7 @@
         "batting_style": "Left-hand bat",
         "bowling_style": "Left-arm chinaman",
         "price": 1300000,
-        "player_img": "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/357766831_1485115142225277_482156482663564548_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHqsTkTcb6C6ymNrg2_bG_4A5KG9cDLi2YDkob1wMuLZiGgwTGs3opQji-UF08H_rYrmIz2n8H14MCMR33ORUyn&_nc_ohc=WPXm3ezgpewQ7kNvgG-getk&_nc_zt=23&_nc_ht=scontent.fdac11-1.fna&_nc_gid=AwUGSZBPyCuCSJnObFfgLfl&oh=00_AYAPsgPKfsyph6O-RMH0OA8W1VyJ1GaNgrFbXaVbA18FZQ&oe=673923F7"
+        "player_img": "https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/359496262_1487510838652374_8528456785985062560_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeEVDYKCih4527SUwE4VPV6NjerMiIYRN1eN6syIhhE3VwiMRBitf7dX4ShdcyKepyFUpDXvKkRxj4NHuKIpUgCm&_nc_ohc=87GFq4aIg74Q7kNvgEgzN3V&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=AkB8E511MgDBB3OInKUt7ta&oh=00_AYDOyYSIGMiSdnahxinrLHltCcR3Y9PuZKr2lRRD1jk-pg&oe=673B7D8B"
     },
     {
         "ID": 10,
