@@ -3,6 +3,8 @@ import SinglePlayer from "../singlePlayer/singlePlayer";
 import { text } from "@fortawesome/fontawesome-svg-core";
 import { getStoredPlayers } from "../LocalStorage/Localstorage";
 
+import fackedata from '../../../public/Deta.json'
+
 import Selected from "../Selected/Selected";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -38,7 +40,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
     //UseEffect for Fetch Facked Data For All Players.
 
     useEffect(() => {
-        fetch('../../../public/Deta.json')
+        fetch("/Deta.json")
             .then(data => data.json())
             .then(res => setAllPlayers(res))
             .catch(error => { "Error occur while Fetching ALl players Details", error })
@@ -78,7 +80,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
                 StoredPlayerslist.push(Player)
                 // console.log("Stored",StoredPlayerslist);
                 setStoredPlayers(StoredPlayerslist)
-                
+
             }
         }
     }, [selectedPlayers, allPlayers])
@@ -102,7 +104,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
             position: "top-right"
         });
         // alert("remove")
-        
+
     };
 
 
@@ -120,7 +122,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
     return (
 
         <div className="container mx-auto mt-10">
-           
+
             {/* Active Button Container Start*/}
             <div className="flex justify-between items-center mb-3">
                 <h3 className="text-3xl font-bold">
@@ -138,7 +140,7 @@ const AllPlayers = ({ handleCOinAfterPurchase, setTotalCoin, totalCoin, updateCo
 
             <div>
                 {/* All Players Container Start : Dynamically Sshow */}
-                
+
 
                 {
                     activetbn.cart ? (

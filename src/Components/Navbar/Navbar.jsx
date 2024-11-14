@@ -22,7 +22,7 @@ const Navbar = ({ handleFreeCredit, totalCoin }) => {
             </div>
 
             {/* Banner-------------*/}
-            <div className='py-5 text-center bg-[url("../../../src/assets/bg-shadow.png")] bg-cover bg-center rounded-lg space-y-1'>
+            <div className='py-5 text-center bg-[url("./assets/bg-shadow.png")] bg-cover bg-center rounded-lg space-y-1'>
                 <img src={banner} alt="Banner" className='mx-auto mb-4' />
                 <h1 className='text-2xl font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <p className='text-lg text-gray-600'>Beyond Boundaries Beyond Limits</p>
